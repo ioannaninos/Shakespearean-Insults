@@ -32,21 +32,21 @@ def barbarousInsult
 end
 
 def compliment1
-    noun2 = ["aglet-baby","argosy","bawcock","bona-roba","bully rook","chuck","coach-fellow","crystal-button","cuckoo-bud","dewberry","eglantine","esquire","flax-wrench","fondling","gamester","handy-dandy","heartling","homager","juvenal","kicksy-wicklsy","kid-fox","lambskin","lodestar","madonna","minstrel","nicety","nymph","pew-fellowed","pittikins","prizer","primrose","rarity","ringlet","shoulder-clapper","sweet-meat","thunder-maker","time-pleaser","turtle-dove","wafer-cake","whiffler","wit-snapper","velvet guard"]
+    noun2 = ["aglet-baby","argosy","bawcock","bona-roba","bully rook","chuck","coach-fellow","crystal-button","cuckoo-bud","dewberry","eglantine","esquire","flax-wrench","fondling","gamester","handy-dandy","heartling","homager","juvenal","kicksy-wicksly","kid-fox","lambskin","lodestar","madonna","minstrel","nicety","nymph","pew-fellowed","pittikins","prizer","primrose","rarity","ringlet","shoulder-clapper","sweet-meat","thunder-maker","time-pleaser","turtle-dove","wafer-cake","whiffler","wit-snapper","velvet guard"]
     return "Thou art a " + noun2.sample + "!"
 end
 
 def compliment2
-    noun2 = ["aglet-baby","argosy","bawcock","bona-roba","bully rook","chuck","coach-fellow","crystal-button","cuckoo-bud","dewberry","eglantine","esquire","flax-wrench","fondling","gamester","handy-dandy","heartling","homager","juvenal","kicksy-wicklsy","kid-fox","lambskin","lodestar","madonna","minstrel","nicety","nymph","pew-fellowed","pittikins","prizer","primrose","rarity","ringlet","shoulder-clapper","sweet-meat","thunder-maker","time-pleaser","turtle-dove","wafer-cake","whiffler","wit-snapper","velvet guard"]
+    noun2 = ["aglet-baby","argosy","bawcock","bona-roba","bully rook","chuck","coach-fellow","crystal-button","cuckoo-bud","dewberry","eglantine","esquire","flax-wrench","fondling","gamester","handy-dandy","heartling","homager","juvenal","kicksy-wicksly","kid-fox","lambskin","lodestar","madonna","minstrel","nicety","nymph","pew-fellowed","pittikins","prizer","primrose","rarity","ringlet","shoulder-clapper","sweet-meat","thunder-maker","time-pleaser","turtle-dove","wafer-cake","whiffler","wit-snapper","velvet guard"]
     adj3 = ["airy","amorous","balmy","bespiced","beteeming","blazoning","bonny","brisky","candied","celestial","chafeless","choicely","courtly","dainty","daisied","damasked","enchanting","engilded","fettled","honeysuckle","jovial","leavened","lusty","mannerly","marbled","meek","orbed","palmy","posied","sovereign","sphery","sterling","tafetta","tenderful","virtuous","worthy"]
     return "Thou art a " + adj3.sample + " " + noun2.sample + " !"
 end 
 
 def compliment3
-    noun2 = ["aglet-baby","argosy","bawcock","bona-roba","bully rook","chuck","coach-fellow","crystal-button","cuckoo-bud","dewberry","eglantine","esquire","flax-wrench","fondling","gamester","handy-dandy","heartling","homager","juvenal","kicksy-wicklsy","kid-fox","lambskin","lodestar","madonna","minstrel","nicety","nymph","pew-fellowed","pittikins","prizer","primrose","rarity","ringlet","shoulder-clapper","sweet-meat","thunder-maker","time-pleaser","turtle-dove","wafer-cake","whiffler","wit-snapper","velvet guard"]
+    noun2 = ["aglet-baby","argosy","bawcock","bona-roba","bully rook","chuck","coach-fellow","crystal-button","cuckoo-bud","dewberry","eglantine","esquire","flax-wrench","fondling","gamester","handy-dandy","heartling","homager","juvenal","kicksy-wicksly","kid-fox","lambskin","lodestar","madonna","minstrel","nicety","nymph","pew-fellowed","pittikins","prizer","primrose","rarity","ringlet","shoulder-clapper","sweet-meat","thunder-maker","time-pleaser","turtle-dove","wafer-cake","whiffler","wit-snapper","velvet guard"]
     adj4 = ["all-hollown","alms-deed","burly-bonded","cheek-roses","crow-flowered","choice-drawn","deed-achieving","eagle-sighted","ear-kissing","ear-bussing","even-preached","eye-beaming","face-royal","fairy-gold","fertile-fresh","full-acorned","gallant-springing","heaven-hued","honey-bagged","leaping-time","love-springing","life-rendering","marble-constant","May-morn","nimble-pinioned","nose-herb","parti-coloured","proud-pied","right-drawn","silver-shredding","smoothy-pated","softly-sprighted","sweet-seasoned","tender-smelling","trice-crowned","tiger-footed","top-gallant","truest-mannered","weeping-ripe","well-breathed","well-favoured","young-eyed"]
     adj3 = ["airy","amorous","balmy","bespiced","beteeming","blazoning","bonny","brisky","candied","celestial","chafeless","choicely","courtly","dainty","daisied","damasked","enchanting","engilded","fettled","honeysuckle","jovial","leavened","lusty","mannerly","marbled","meek","orbed","palmy","posied","sovereign","sphery","sterling","tafetta","tenderful","virtuous","worthy"]
-    return "Thou art a " + adj3.sample + " " + adj4.sample + " " + noun2.sample + " !"
+    return "Thou art a " + adj3.sample + " " + adj4.sample + " " + noun2.sample + "!"
 end
 def giphy
     @gifdata=HTTParty.get("http://api.giphy.com/v1/gifs/random?api_key=MOiH0aCTJ5OMKrvMpn8q9PtuPOH5fXt5&tag=Laughing");
