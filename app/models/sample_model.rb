@@ -39,6 +39,7 @@ end
 def compliment2
     noun2 = ["aglet-baby","argosy","bawcock","bona-roba","bully rook","chuck","coach-fellow","crystal-button","cuckoo-bud","dewberry","eglantine","esquire","flax-wrench","fondling","gamester","handy-dandy","heartling","homager","juvenal","kicksy-wicklsy","kid-fox","lambskin","lodestar","madonna","minstrel","nicety","nymph","pew-fellowed","pittikins","prizer","primrose","rarity","ringlet","shoulder-clapper","sweet-meat","thunder-maker","time-pleaser","turtle-dove","wafer-cake","whiffler","wit-snapper","velvet guard"]
     adj3 = ["airy","amorous","balmy","bespiced","beteeming","blazoning","bonny","brisky","candied","celestial","chafeless","choicely","courtly","dainty","daisied","damasked","enchanting","engilded","fettled","honeysuckle","jovial","leavened","lusty","mannerly","marbled","meek","orbed","palmy","posied","sovereign","sphery","sterling","tafetta","tenderful","virtuous","worthy"]
+    return "Thou art a " + adj3.sample + " " + noun2.sample + " !"
 end 
 
 def compliment3

@@ -18,20 +18,28 @@
         </div>
         <div class='content-box' id="cruel-insult">
             <h2> <%= @insult1 %> </h2>
-            <img src="<%= @gifurl %>">
-            <p> Oof, that was a little mean, don't you think? Try softening the blow with this random compliment: <%= @compliment1 %></p>
+            <div class="flex">
+                <img src="<%= @gifurl %>">
+                <p> Oof, that was a little mean, don't you think? Try softening the blow with this random compliment:</p>
+            </div>
+            <h3><%= @compliment1 %></h3>
         </div>
         <div class='content-box' id="savage-insult">
             <h2> <%= @insult2 %> </h2>
-            <img src="<%= @gifurl %>">
-            <p> Oof, that was a little mean, don't you think? Try softening the blow with this random compliment:</p>
+            <div class="flex">
+                <img src="<%= @gifurl %>">
+                <p> Oof, that was a little mean, don't you think? Try softening the blow with this random compliment:</p>
+            </div>
             <h3><%= @compliment2 %></h3>
         </div>
         
         <div class= 'content-box' id="barbarous-insult">
             <h2> <%= @insult3 %> </h2>
-            <img src="<%= @gifurl %>">
-            <p> Oof, that was a little mean, don't you think? Try softening the blow with this random compliment: <%= @compliment3 %></p>
+            <div class="flex">
+                <img src="<%= @gifurl %>">
+                <p> Oof, that was a little mean, don't you think? Try softening the blow with this random compliment: </p>
+            </div>
+            <h3><%= @compliment3 %></h3>
         </div>
         <script>
             var cruelDiv = document.getElementById("cruel-insult")
