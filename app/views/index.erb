@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Shakespearean Insults Generator </title>
+        <link rel="stylesheet" href="css/project.css" type="text/css" /> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Raleway" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    </head>
+    <body>
+        <img class="shakespeareimg" src="https://openclipart.org/image/2400px/svg_to_png/191263/shakespear-face.png">
+        <h1> Shakespeare Insult Generator! </h1>
+        <p class="intro"> Using this website, you can generate insults that are nearly as good as those that the great Shakespeare would have written himself. Click one of the three buttons below to receive a unique insult! Note that "cruel" insults will not be as harsh as "barbarous" insults. For a new set of insults, simply refresh the page! </p>
+        <div id="buttons">
+            <a onclick="showCruelInsult()"> Show Cruel Insult</a>
+            <a onclick="showSavageInsult()"> Show Savage Insult</a>
+            <a onclick="showBarbarousInsult()"> Show Barbarous Insult</a>
+        </div>
+        <div class='content-box' id="cruel-insult">
+            <h2> <%= @insult1 %> </h2>
+            <img src="<%= @gifurl %>">
+            <p> Oof, that was a little mean, don't you think? Try softening the blow with this random compliment: <%= @compliment1 %></p>
+        </div>
+        <div class='content-box' id="savage-insult">
+            <h2> <%= @insult2 %> </h2>
+            <img src="<%= @gifurl %>">
+            <p> Oof, that was a little mean, don't you think? Try softening the blow with this random compliment:</p>
+            <h3><%= @compliment2 %></h3>
+        </div>
+        
+        <div class= 'content-box' id="barbarous-insult">
+            <h2> <%= @insult3 %> </h2>
+            <img src="<%= @gifurl %>">
+            <p> Oof, that was a little mean, don't you think? Try softening the blow with this random compliment: <%= @compliment3 %></p>
+        </div>
+        <script>
+            var cruelDiv = document.getElementById("cruel-insult")
+            var savageDiv = document.getElementById("savage-insult")
+            var barbarousDiv = document.getElementById("barbarous-insult")
+            function showCruelInsult(){
+                cruelDiv.style.visibility= "visible";
+                savageDiv.style.visibility= "hidden";
+                barbarousDiv.style.visibility= "hidden";
+            }
+            function showSavageInsult(){
+                cruelDiv.style.visibility= "hidden";
+                savageDiv.style.visibility= "visible";
+                barbarousDiv.style.visibility= "hidden";
+            }
+            function showBarbarousInsult(){
+                cruelDiv.style.visibility= "hidden";
+                savageDiv.style.visibility= "hidden";
+                barbarousDiv.style.visibility= "visible";
+            }
+        </script>
+        <img class="writingimg" src="http://www.wooddalelibrary.org/assets/images/Links/grammar.png"></img>
+    </body>
+
+</html>

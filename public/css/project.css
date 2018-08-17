@@ -1,0 +1,72 @@
+/*#saved fir designs*/
+body {
+    background-image: linear-gradient(to top left, #913155, #995575, #ad6989);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    margin: 0;
+}
+h1 {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    margin-top: 50px;
+}
+p {
+    color: black;
+    font-size:25px;
+    font-family: 'Raleway', sans-serif;
+    margin: 60px;
+    text-align: justify, center ;
+}
+.content-box {
+    background-color: #683b73;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    width:60.5%;
+    margin-left: 330px;
+    margin-top: 10px;
+    border: 4px solid white;
+    visibility: hidden;
+    position: absolute;
+    padding: 20px;
+}
+#buttons {
+    margin: 0 auto;
+    margin-top: 0px;
+    width: 80%;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    justify-content: space-around;
+}
+#buttons a {
+    width: 40%;
+    background-color: #733753;
+    border: 2px solid white;
+    color: white; 
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+}
+#buttons a:active {
+  transform: translateY(5px);
+}
+.shakespeareimg {
+    height: 18%;
+    width: 12%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+.writingimg {
+    height: 148px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 75px;
+    margin-top: 20px;
+}
